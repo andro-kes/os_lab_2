@@ -1,5 +1,5 @@
 {
-  "name": "LabsOS-lab1",
+  "name": "LabsOS-lab2",
   "build": {
     "dockerfile": "Dockerfile"
   },

@@ -54,7 +54,7 @@ cmake -DENABLE_SANITIZERS=ON ..
 
 ```bash
 # Обработка с 4 потоками, 2 применения фильтра, окно 3x3
-./median_filter -m 4 -k 2 -w 3 -i input.txt -o output.txt
+./median_filter -m 4 -k 2 -w 3 -i ../src/in.txt -o ../src/out.txt
 
 # Чтение из stdin, запись в stdout
 ./median_filter -k 1 -w 5 < input.txt > output.txt
