@@ -1,0 +1,17 @@
+{
+  "name": "LabsOS-lab1",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.makefile-tools"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x .devcontainer/run.sh",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}
